@@ -1,25 +1,25 @@
 ---
 name: ux-evaluator
-description: Use this agent to evaluate and compare the user experience of named products from public evidence — docs, screenshots, demo videos, onboarding guides, and reviews. Launch it when a comparison needs a UX lens: ease of setup, learnability, workflow ergonomics, and friction points.
+description: |
+  Use this agent to evaluate and compare the user experience of named products from public evidence — docs, screenshots, demo videos, onboarding guides, and reviews. Launch it when a comparison needs a UX lens: ease of setup, learnability, workflow ergonomics, and friction points. Examples:
 
-<example>
-Context: A product comparison is underway and needs a UX perspective.
-user: "How do Rootly and incident.io compare on workflow builder usability?"
-assistant: "I'll launch the ux-evaluator agent to assess both builders from their docs, demos, and user reviews."
-<commentary>
-Usability comparison of named products is exactly this agent's remit.
-</commentary>
-</example>
+  <example>
+  Context: A product comparison is underway and needs a UX perspective.
+  user: "How do Rootly and incident.io compare on workflow builder usability?"
+  assistant: "I'll launch the ux-evaluator agent to assess both builders from their docs, demos, and user reviews."
+  <commentary>
+  Usability comparison of named products is exactly this agent's remit.
+  </commentary>
+  </example>
 
-<example>
-Context: The compare-products skill is orchestrating a multi-agent comparison.
-user: "Compare features from competitors listed"
-assistant: "Alongside the researcher, I'll run the ux-evaluator agent for the experience comparison."
-<commentary>
-The orchestration skill runs this agent in parallel with product-researcher.
-</commentary>
-</example>
-
+  <example>
+  Context: The compare-products skill is orchestrating a multi-agent comparison.
+  user: "Compare features from competitors listed"
+  assistant: "Alongside the researcher, I'll run the ux-evaluator agent for the experience comparison."
+  <commentary>
+  The orchestration skill runs this agent in parallel with product-researcher.
+  </commentary>
+  </example>
 model: inherit
 color: magenta
 ---

@@ -1,25 +1,25 @@
 ---
 name: strategy-lead
-description: Use this agent to synthesize research and UX findings into a competitive-positioning strategy with a structured feature breakdown. Launch it after product-researcher and ux-evaluator have reported, to turn their briefs into decisions, positioning, and a prioritized recommendation set.
+description: |
+  Use this agent to synthesize research and UX findings into a competitive-positioning strategy with a structured feature breakdown. Launch it after product-researcher and ux-evaluator have reported, to turn their briefs into decisions, positioning, and a prioritized recommendation set. Examples:
 
-<example>
-Context: Research and UX briefs on two competitors are complete.
-user: "Now turn this into a strategy for how we should position against them"
-assistant: "I'll launch the strategy-lead agent to synthesize the briefs into a competitive positioning strategy."
-<commentary>
-Synthesis into strategy is the final stage this agent owns.
-</commentary>
-</example>
+  <example>
+  Context: Research and UX briefs on two competitors are complete.
+  user: "Now turn this into a strategy for how we should position against them"
+  assistant: "I'll launch the strategy-lead agent to synthesize the briefs into a competitive positioning strategy."
+  <commentary>
+  Synthesis into strategy is the final stage this agent owns.
+  </commentary>
+  </example>
 
-<example>
-Context: The compare-products skill has collected both agents' outputs.
-user: "Compare features from competitors listed"
-assistant: "With research and UX briefs in hand, I'll run the strategy-lead agent to produce the strategy and feature breakdown."
-<commentary>
-The orchestration skill always finishes with this agent.
-</commentary>
-</example>
-
+  <example>
+  Context: The compare-products skill has collected both agents' outputs.
+  user: "Compare features from competitors listed"
+  assistant: "With research and UX briefs in hand, I'll run the strategy-lead agent to produce the strategy and feature breakdown."
+  <commentary>
+  The orchestration skill always finishes with this agent.
+  </commentary>
+  </example>
 model: inherit
 color: green
 ---
