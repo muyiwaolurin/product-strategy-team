@@ -1,0 +1,9 @@
+{
+  "name": "product-strategy-team",
+  "version": "0.1.0",
+  "description": "A three-agent team (research, UX, strategy) that compares named products on the public web and delivers a competitive-positioning strategy document with a feature breakdown.",
+  "author": {
+    "name": "Muyiwa Olurin"
+  },
+  "keywords": ["product-research", "competitive-analysis", "ux", "strategy"]
+}
